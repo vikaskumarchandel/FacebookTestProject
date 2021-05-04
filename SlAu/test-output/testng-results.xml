@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48546" started-at="2021-05-03T11:29:36Z" finished-at="2021-05-03T11:30:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48546" started-at="2021-05-03T11:29:36Z" finished-at="2021-05-03T11:30:25Z">
+      <class name="com.qa.TestScripts.TC_FaceBookInvalid">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.TestScripts.TC_FaceBookInvalid@6f1fba17]" name="setUp" is-config="true" duration-ms="11341" started-at="2021-05-03T11:29:37Z" finished-at="2021-05-03T11:29:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.TestScripts.TC_FaceBookInvalid@6f1fba17]" name="login" duration-ms="5572" started-at="2021-05-03T11:29:52Z" data-provider="fetchData" finished-at="2021-05-03T11:29:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5454vikas@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vvvv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.TestScripts.TC_FaceBookInvalid@6f1fba17]" name="login" duration-ms="19759" started-at="2021-05-03T11:29:58Z" data-provider="fetchData" finished-at="2021-05-03T11:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikaskumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vikas@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.TestScripts.TC_FaceBookInvalid@6f1fba17]" name="login" duration-ms="5951" started-at="2021-05-03T11:30:18Z" data-provider="fetchData" finished-at="2021-05-03T11:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikaskumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vvvv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.TestScripts.TC_FaceBookInvalid@6f1fba17]" name="tearDown" is-config="true" duration-ms="605" started-at="2021-05-03T11:30:24Z" finished-at="2021-05-03T11:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.TestScripts.TC_FaceBookInvalid -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

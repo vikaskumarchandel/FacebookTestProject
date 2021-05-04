@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.qa.utility.Reporting"></listener>
+
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="Url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="com.qa.TestScripts.TC_FaceBook"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
